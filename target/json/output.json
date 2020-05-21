@@ -1,0 +1,270 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5905025600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.testSetUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Test Page link",
+        "description": "",
+        "id": "testing-my-app;test-page-link;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1494634200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.testShutDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1031424400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I navigated to the website",
+            "match": {
+              "location": "StepDefinitions.shouldNavigateToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288898200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.clickOnLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16330300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I validate the F1 2018 Season Calendar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "F1 2018 Season Calendar",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.validateTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4755209800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.testSetUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Test Page link",
+        "description": "",
+        "id": "testing-my-app;test-page-link;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1509907700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.testShutDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 962121200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I navigated to the website",
+            "match": {
+              "location": "StepDefinitions.shouldNavigateToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 318251600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on About",
+            "match": {
+              "arguments": [
+                {
+                  "val": "About",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.clickOnLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17997300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I validate the This is the about page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is the about page",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.validateTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4766917400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.testSetUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Test Page link",
+        "description": "",
+        "id": "testing-my-app;test-page-link;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1480252600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.testShutDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 904735000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I navigated to the website",
+            "match": {
+              "location": "StepDefinitions.shouldNavigateToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 317012000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Secret",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Secret",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.clickOnLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13540600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I validate the This is the secret page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is the secret page",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.validateTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing my app",
+    "description": "",
+    "id": "testing-my-app",
+    "keyword": "Feature",
+    "uri": "myfeature.feature"
+  }
+]
